@@ -1,0 +1,13 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [Mezz_Card.PrjPCB]
+   Generated File[CX4.TXT]
+   Generated File[CX4.DRL]
+   Generated File[CX4.LDP]
+   Generated File[CX4.DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 12:18:38 PM On 2011/02/09
