@@ -102,76 +102,76 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
 [Parameter1]
-Name=SCH_TITLE_ENGINEER
-Value=D. George
+Name=COMPANY_ADDRESS_1
+Value=3rd Floor, The Park
 
 [Parameter2]
-Name=SCH_TITLE_DRAWNBY
-Value=P. Gibbs
-
-[Parameter3]
-Name=SCH_TITLE_DOCUMENTNUMBER
-Value=xxxx
-
-[Parameter4]
-Name=SCH_TITLE_DATE
-Value=Dec 2010
-
-[Parameter5]
-Name=PROJECT_TITLE
-Value=CX4 Mezzanine Card
-
-[Parameter6]
-Name=PCB_TITLE_FILENAME
-Value=
-
-[Parameter7]
-Name=PCB_TITLE_ENGINEER
-Value=
-
-[Parameter8]
-Name=PCB_TITLE_DRAWNBY
-Value=
-
-[Parameter9]
-Name=PCB_TITLE_DOCUMENTNUMBER
-Value=
-
-[Parameter10]
-Name=PCB_TITLE_DATE
-Value=
-
-[Parameter11]
-Name=PCB_REVISION
-Value=A
-
-[Parameter12]
-Name=GERBER_FILENAME
-Value=
-
-[Parameter13]
-Name=COPYRIGHT_YEAR
-Value=2010
-
-[Parameter14]
-Name=COMPANY_NAME2
-Value=
-
-[Parameter15]
-Name=COMPANY_NAME1
-Value=SKA South Africa
-
-[Parameter16]
-Name=COMPANY_ADDRESS_3
-Value=Pinelands, 7405
-
-[Parameter17]
 Name=COMPANY_ADDRESS_2
 Value=Park Road
 
+[Parameter3]
+Name=COMPANY_ADDRESS_3
+Value=Pinelands, 7405
+
+[Parameter4]
+Name=COMPANY_NAME1
+Value=SKA South Africa
+
+[Parameter5]
+Name=COMPANY_NAME2
+Value=
+
+[Parameter6]
+Name=COPYRIGHT_YEAR
+Value=2010
+
+[Parameter7]
+Name=GERBER_FILENAME
+Value=
+
+[Parameter8]
+Name=PCB_REVISION
+Value=A
+
+[Parameter9]
+Name=PCB_TITLE_DATE
+Value=
+
+[Parameter10]
+Name=PCB_TITLE_DOCUMENTNUMBER
+Value=
+
+[Parameter11]
+Name=PCB_TITLE_DRAWNBY
+Value=
+
+[Parameter12]
+Name=PCB_TITLE_ENGINEER
+Value=
+
+[Parameter13]
+Name=PCB_TITLE_FILENAME
+Value=
+
+[Parameter14]
+Name=PROJECT_TITLE
+Value=CX4 Mezzanine Card
+
+[Parameter15]
+Name=SCH_TITLE_DATE
+Value=Dec 2010
+
+[Parameter16]
+Name=SCH_TITLE_DOCUMENTNUMBER
+Value=xxxx
+
+[Parameter17]
+Name=SCH_TITLE_DRAWNBY
+Value=P. Gibbs
+
 [Parameter18]
-Name=COMPANY_ADDRESS_1
-Value=3rd Floor, The Park
+Name=SCH_TITLE_ENGINEER
+Value=D. George
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -1250,7 +1250,7 @@ ComponentUpdate6=1
 ComponentIsDeviceSheet6=0
 
 [Comparison Options]
-ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
+ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|Confirm=0|UseName=-1|InclAllRules=0
 ComparisonOptions1=Kind=Net Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
 ComparisonOptions2=Kind=Component Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
 ComparisonOptions3=Kind=Rule|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
