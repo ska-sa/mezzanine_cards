@@ -101,6 +101,10 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
+[GeneratedDocument1]
+DocumentPath=
+DItemRevisionGUID=
+
 [Parameter1]
 Name=COMPANY_ADDRESS_1
 Value=3rd Floor, The Park
