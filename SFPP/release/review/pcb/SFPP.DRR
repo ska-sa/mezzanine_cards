@@ -1,5 +1,5 @@
 ---------------------------------------------------------------------------
-NCDrill File Report For: SFPP.PcbDoc   2011/06/21  11:43:26 AM
+NCDrill File Report For: SFPP.PcbDoc   2011/06/23  04:49:58 PM
 ---------------------------------------------------------------------------
 
 Layer Pair : L1_S1 to L8_S4
@@ -9,7 +9,7 @@ EIA File   : SFPP.DRL
 
 Tool         Hole Size           Hole Type     Hole Count Plated       Tool Travel
 ---------------------------------------------------------------------------
-T1        0.254mm (10mil)          Round          672              1613.89 mm (63.54 Inch)
+T1        0.254mm (10mil)          Round          711              1689.19 mm (66.50 Inch)
 T2        0.33mm (12.992mil)       Round          27               52.87 mm (2.08 Inch)
 T3        0.5mm (19.685mil)        Round          46               390.28 mm (15.37 Inch)
 T4        0.7112mm (28mil)         Round          1                0.00 mm (0.00 Inch)
@@ -20,6 +20,6 @@ T8        3.81mm (150mil)          Round          4                256.47 mm (10
 T9        1.1684mm (46mil)         Round          2         NPTH   84.58 mm (3.33 Inch)
 T10       1.524mm (60mil)          Round          4         NPTH   80.38 mm (3.16 Inch)
 ---------------------------------------------------------------------------
-Totals                                            798              2935.91 mm (115.59 Inch)
+Totals                                            837              3011.20 mm (118.55 Inch)
 
 Total Processing Time (hh:mm:ss) : 00:00:01

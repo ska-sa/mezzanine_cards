@@ -20,7 +20,7 @@ POD number,Manufacturer,PartNum,Description,Designator,Quantity,Rating,Tolerance
 "CONN-PCB-26","Molex","0747540420","SFP+ 1X4 Cage Assembly","P1","1","","",""
 "CONN-PCB-19","SAMTEC","QFSS-064-04.25-L-D-A-DP","Shielded, 64-Differential Pair, Rugged High-Speed Terminal Strip, 0.635mm Pitch","J1","1","","",""
 "CONN-PCB-16","SAMTEC","TSM-107-01-TM-DV-P","2x7, 2.54 mm Pitch, Male Header","P6","1","","",""
-"CAP-TAN-6","AVX","TPSB107M006R0200","100uF, Low ESR, Tantalum Capacitor","C33, C42, C123","3","6.3V","20%","100uF"
+"CAP-CER-13","TDK","C3225X5R0J107M","100uF, 1210, Ceramic Capacitor","C33, C42, C73","3","6.3V","20%","100uF"
 "CAP-CER-8","MURATA","GRM21BR61C105KA01L","1uF, Ceramic Capacitor","C71, C72, C74, C75, C76, C77, C78, C112, C113, C115, C116, C117, C118, C119","14","16V","10%","1uF"
 "CAP-CER-6","MURATA","GRM155R71E103KA01D","0.01uF, Ceramic Capacitor","C38, C44, C128","3","25V","10%","0.01uF"
 "CAP-CER-5","MURATA","GRM32DR61E106KA12L","10uF, Ceramic Capacitor","C34, C36, C37, C39, C40, C43, C124, C126, C127","9","25V","10%","10uF"

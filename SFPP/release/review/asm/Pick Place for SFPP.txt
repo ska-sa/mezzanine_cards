@@ -1,9 +1,12 @@
 Designator Footprint               Mid X         Mid Y         Ref X         Ref Y         Pad X         Pad Y TB      Rotation Comment        
 
+C73        CAPC3225X270L          83.1mm        45.8mm        83.1mm        45.8mm        83.1mm       47.15mm  T        270.00 100uF          
+C42        CAPC3225X270L          74.6mm        33.2mm        74.6mm        33.2mm        74.6mm       34.55mm  T        270.00 100uF          
+C33        CAPC3225X270L       56.7944mm        22.3mm     56.7944mm        22.3mm     55.4444mm        22.3mm  T        360.00 100uF          
 R63        RESC1005X40L           48.7mm        49.4mm        48.7mm        49.4mm        49.2mm        49.4mm  B        180.00 3K3            
-R62        RESC1005X40L           50.3mm          63mm        50.3mm          63mm        50.8mm          63mm  B        180.00 3K3            
-R61        RESC1005X40L           49.6mm        60.3mm        49.6mm        60.3mm        49.6mm        59.8mm  B         90.00 3K3            
-R60        RESC1005X40L           50.3mm        61.9mm        50.3mm        61.9mm        50.8mm        61.9mm  B        180.00 3K3            
+R62        RESC1005X40L        42.1826mm     64.0588mm     42.1826mm     64.0588mm     42.6826mm     64.0588mm  B        180.00 3K3            
+R61        RESC1005X40L           49.9mm          60mm        49.9mm          60mm        49.9mm        59.5mm  B         90.00 3K3            
+R60        RESC1005X40L        42.1826mm     62.9588mm     42.1826mm     62.9588mm     42.6826mm     62.9588mm  B        180.00 3K3            
 R59        RESC1005X40L           48.7mm        52.6mm        48.7mm        52.6mm        49.2mm        52.6mm  B        180.00 3K3            
 R58        RESC1005X40L           48.7mm        51.6mm        48.7mm        51.6mm        49.2mm        51.6mm  B        180.00 3K3            
 R57        RESC1005X40L           48.7mm        50.5mm        48.7mm        50.5mm        49.2mm        50.5mm  B        180.00 3K3            
@@ -29,7 +32,7 @@ L4         INDC3216X130L       61.7188mm     40.6016mm     61.7188mm     40.6016
 L3         INDC3216X130L       45.0088mm     55.3212mm     45.0088mm     55.3212mm     45.0088mm     56.6962mm  T        270.00 120R           
 L2         INDC3216X130L       44.9933mm     60.0897mm     44.9933mm     60.0897mm     44.9933mm     61.4647mm  B        270.00 120R           
 L1         INDC3216X130L       30.9372mm     38.8366mm     30.9372mm     38.8366mm     30.9372mm     37.4616mm  T         90.00 120R           
-C121       CAPC1005X60L             65mm      61.296mm          65mm      61.296mm        64.5mm      61.296mm  B        360.00 0.1uF          
+C121       CAPC1005X60L           65.6mm        59.3mm        65.6mm        59.3mm        65.6mm        59.8mm  B        270.00 0.1uF          
 C120       CAPC1005X60L           51.2mm        59.7mm        51.2mm        59.7mm        51.2mm        60.2mm  B        270.00 0.1uF          
 C109       CAPC1005X60L         71.247mm     61.4426mm      71.247mm     61.4426mm      70.747mm     61.4426mm  T          0.00 0.1uF          
 C108       CAPC1005X60L         71.247mm      62.484mm      71.247mm      62.484mm      70.747mm      62.484mm  T        360.00 0.1uF          
@@ -54,7 +57,7 @@ C89        CAPC1005X60L         61.004mm      48.006mm      61.004mm      48.006
 C88        CAPC1005X60L        59.8864mm      54.483mm     59.8864mm      54.483mm     59.8864mm      53.983mm  B         90.00 0.1uF          
 C87        CAPC1005X60L        59.1244mm      54.483mm     59.1244mm      54.483mm     59.1244mm      53.983mm  B         90.00 0.1uF          
 C86        CAPC1005X60L        59.0482mm     47.9806mm     59.0482mm     47.9806mm     59.0482mm     47.4806mm  B         90.00 0.1uF          
-C80        CAPC1005X60L             36mm      61.296mm          36mm      61.296mm        35.5mm      61.296mm  B        360.00 0.1uF          
+C80        CAPC1005X60L           36.5mm        59.3mm        36.5mm        59.3mm        36.5mm        59.8mm  B        270.00 0.1uF          
 C79        CAPC1005X60L         22.196mm        59.7mm      22.196mm        59.7mm      22.196mm        60.2mm  B        270.00 0.1uF          
 C70        CAPC1005X60L        20.0756mm       54.85mm     20.0756mm       54.85mm     20.0756mm       55.35mm  B        270.00 0.1uF          
 C69        CAPC1005X60L         38.477mm     51.9176mm      38.477mm     51.9176mm      38.477mm     52.4176mm  B        270.00 0.1uF          
@@ -138,7 +141,6 @@ C29        CAPC1005X60L           48.7mm        28.5mm        48.7mm        28.5
 C30        CAPC1005X60L           49.7mm        28.5mm        49.7mm        28.5mm        49.7mm          29mm  B        270.00 0.1uF          
 U1         BGA196C100P14X14_1500x1500x140        30.5mm          53mm        30.5mm          53mm          24mm        46.5mm  T         90.00 VSC8488XJU     
 U2         BGA196C100P14X14_1500x1500x140        59.5mm          53mm        59.5mm          53mm          53mm        46.5mm  T         90.00 VSC8488XJU     
-C33        CAPMP3528X210L         56.8mm        22.2mm        56.8mm        22.2mm        58.1mm        22.2mm  T        180.00 100uF          
 C34        CAPC3225X200L          67.6mm        19.6mm        67.6mm        19.6mm       68.95mm        19.6mm  T        180.00 10uF           
 C35        CAPC1005X60L           67.3mm        21.7mm        67.3mm        21.7mm        67.8mm        21.7mm  T        180.00 0.1uF          
 C36        CAPC3225X200L       56.7944mm     25.5524mm     56.7944mm     25.5524mm     55.4444mm     25.5524mm  T        360.00 10uF           
@@ -147,30 +149,28 @@ C38        CAPC1005X55L           62.2mm        27.1mm        62.2mm        27.1
 C39        CAPC3225X200L          82.7mm        34.1mm        82.7mm        34.1mm        82.7mm       32.75mm  T         90.00 10uF           
 C40        CAPC3225X200L          86.2mm        34.1mm        86.2mm        34.1mm        86.2mm       32.75mm  T         90.00 10uF           
 C41        CAPC1005X60L           79.7mm        37.2mm        79.7mm        37.2mm        79.2mm        37.2mm  T        360.00 0.1uF          
-C42        CAPMP3528X210L        82.95mm        45.8mm       82.95mm        45.8mm       82.95mm        44.5mm  T         90.00 100uF          
 C43        CAPC3225X200L         79.65mm        45.8mm       79.65mm        45.8mm       79.65mm       47.15mm  T        270.00 10uF           
 C44        CAPC1005X55L           87.8mm        40.4mm        87.8mm        40.4mm        87.8mm        39.9mm  T         90.00 0.01uF         
 C71        CAPC2012X127L          34.8mm        44.5mm        34.8mm        44.5mm       34.05mm        44.5mm  B        360.00 1uF            
 C72        CAPC2012X127L          21.7mm        47.2mm        21.7mm        47.2mm        21.7mm       47.95mm  B        270.00 1uF            
-C74        CAPC2012X127L          31.6mm        61.6mm        31.6mm        61.6mm       32.35mm        61.6mm  B        180.00 1uF            
-C75        CAPC2012X127L          27.6mm        61.6mm        27.6mm        61.6mm       28.35mm        61.6mm  B        180.00 1uF            
+C74        CAPC2012X127L          34.2mm          62mm        34.2mm          62mm        34.2mm       61.25mm  B         90.00 1uF            
+C75        CAPC2012X127L          30.1mm        61.3mm        30.1mm        61.3mm       30.85mm        61.3mm  B        180.00 1uF            
 C76        CAPC2012X127L          39.7mm        59.7mm        39.7mm        59.7mm        39.7mm       58.95mm  B         90.00 1uF            
 C77        CAPC2012X127L          21.9mm        55.8mm        21.9mm        55.8mm        21.9mm       56.55mm  B        270.00 1uF            
 C78        CAPC2012X127L          39.6mm        55.5mm        39.6mm        55.5mm        39.6mm       56.25mm  B        270.00 1uF            
 C81        CAPC1005X60L           12.4mm          55mm        12.4mm          55mm        11.9mm          55mm  T        360.00 0.1uF          
 C82        CAPC2012X127L          46.2mm       65.04mm        46.2mm       65.04mm       45.45mm       65.04mm  B        360.00 4.7uF          
 C83        CAPC2012X127L          59.6mm       67.74mm        59.6mm       67.74mm       58.85mm       67.74mm  B        360.00 4.7uF          
-C84        CAPC2012X127L          32.3mm       65.04mm        32.3mm       65.04mm       31.55mm       65.04mm  B        360.00 4.7uF          
+C84        CAPC2012X127L          30.8mm        64.2mm        30.8mm        64.2mm        30.8mm       63.45mm  B         90.00 4.7uF          
 C85        CAPC2012X127L          18.4mm      67.332mm        18.4mm      67.332mm        18.4mm      68.082mm  B        270.00 4.7uF          
 C112       CAPC2012X127L          63.8mm        44.5mm        63.8mm        44.5mm       63.05mm        44.5mm  B        360.00 1uF            
 C113       CAPC2012X127L          50.7mm        47.2mm        50.7mm        47.2mm        50.7mm       47.95mm  B        270.00 1uF            
-C115       CAPC2012X127L          60.6mm        61.6mm        60.6mm        61.6mm       61.35mm        61.6mm  B        180.00 1uF            
-C116       CAPC2012X127L          56.6mm        61.6mm        56.6mm        61.6mm       57.35mm        61.6mm  B        180.00 1uF            
+C115       CAPC2012X127L          63.3mm        61.9mm        63.3mm        61.9mm        63.3mm       61.15mm  B         90.00 1uF            
+C116       CAPC2012X127L          58.9mm        61.6mm        58.9mm        61.6mm       58.15mm        61.6mm  B        360.00 1uF            
 C117       CAPC2012X127L          68.7mm        59.7mm        68.7mm        59.7mm        68.7mm       58.95mm  B         90.00 1uF            
 C118       CAPC2012X127L          50.9mm        55.8mm        50.9mm        55.8mm        50.9mm       56.55mm  B        270.00 1uF            
 C119       CAPC2012X127L          68.6mm        55.5mm        68.6mm        55.5mm        68.6mm       56.25mm  B        270.00 1uF            
 C122       CAPC1005X60L           76.1mm        55.2mm        76.1mm        55.2mm        76.6mm        55.2mm  T        180.00 0.1uF          
-C123       CAPMP3528X210L         74.5mm        33.4mm        74.5mm        33.4mm        74.5mm        32.1mm  T         90.00 100uF          
 C124       CAPC3225X200L          74.7mm        21.8mm        74.7mm        21.8mm        74.7mm       20.45mm  T         90.00 10uF           
 C125       CAPC1005X60L           72.3mm        24.4mm        72.3mm        24.4mm        71.8mm        24.4mm  T          0.00 0.1uF          
 C126       CAPC3225X200L          71.2mm        33.2mm        71.2mm        33.2mm        71.2mm       34.55mm  T        270.00 10uF           
