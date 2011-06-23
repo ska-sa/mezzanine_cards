@@ -117,232 +117,184 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
 [GeneratedDocument1]
-DocumentPath=Assembly Testpoint Report for SFPP.ipc
-DItemRevisionGUID=
-
-[GeneratedDocument2]
 DocumentPath=output\Test Point Output\Assembly Testpoint Report for SFPP.ipc
 DItemRevisionGUID=
 
-[GeneratedDocument3]
-DocumentPath=Bill of Materials-SFPP.csv
-DItemRevisionGUID=
-
-[GeneratedDocument4]
+[GeneratedDocument2]
 DocumentPath=output\Reports\Bill of Materials-SFPP.csv
 DItemRevisionGUID=
 
-[GeneratedDocument5]
-DocumentPath=Fabrication Testpoint Report for SFPP.ipc
-DItemRevisionGUID=
-
-[GeneratedDocument6]
+[GeneratedDocument3]
 DocumentPath=output\Test Point Output\Fabrication Testpoint Report for SFPP.ipc
 DItemRevisionGUID=
 
-[GeneratedDocument7]
+[GeneratedDocument4]
 DocumentPath=output\Pick Place Output\Pick Place for SFPP.txt
 DItemRevisionGUID=
 
-[GeneratedDocument8]
-DocumentPath=Pick Place for SFPP.txt
-DItemRevisionGUID=
-
-[GeneratedDocument9]
+[GeneratedDocument5]
 DocumentPath=output\NC Drill Output\SFPP-NonPlated.TXT
 DItemRevisionGUID=
 
-[GeneratedDocument10]
-DocumentPath=SFPP-NonPlated.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument11]
+[GeneratedDocument6]
 DocumentPath=output\NC Drill Output\SFPP-Plated.TXT
 DItemRevisionGUID=
 
-[GeneratedDocument12]
-DocumentPath=SFPP-Plated.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument13]
+[GeneratedDocument7]
 DocumentPath=output\NC Drill Output\SFPP.DRL
 DItemRevisionGUID=
 
-[GeneratedDocument14]
-DocumentPath=SFPP.DRL
-DItemRevisionGUID=
-
-[GeneratedDocument15]
+[GeneratedDocument8]
 DocumentPath=output\NC Drill Output\SFPP.DRR
 DItemRevisionGUID=
 
-[GeneratedDocument16]
-DocumentPath=SFPP.DRR
-DItemRevisionGUID=
-
-[GeneratedDocument17]
+[GeneratedDocument9]
 DocumentPath=output\Gerber Output\SFPP.EXTREP
 DItemRevisionGUID=
 
-[GeneratedDocument18]
-DocumentPath=SFPP.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument19]
+[GeneratedDocument10]
 DocumentPath=output\Gerber Output\SFPP.G1
 DItemRevisionGUID=
 
-[GeneratedDocument20]
+[GeneratedDocument11]
 DocumentPath=output\Gerber Output\SFPP.G2
 DItemRevisionGUID=
 
-[GeneratedDocument21]
+[GeneratedDocument12]
 DocumentPath=output\Gerber Output\SFPP.GBL
 DItemRevisionGUID=
 
-[GeneratedDocument22]
+[GeneratedDocument13]
 DocumentPath=output\Gerber Output\SFPP.GBO
 DItemRevisionGUID=
 
-[GeneratedDocument23]
+[GeneratedDocument14]
 DocumentPath=output\Gerber Output\SFPP.GBP
 DItemRevisionGUID=
 
-[GeneratedDocument24]
+[GeneratedDocument15]
 DocumentPath=output\Gerber Output\SFPP.GBS
 DItemRevisionGUID=
 
-[GeneratedDocument25]
+[GeneratedDocument16]
 DocumentPath=output\Gerber Output\SFPP.GM1
 DItemRevisionGUID=
 
-[GeneratedDocument26]
+[GeneratedDocument17]
 DocumentPath=output\Gerber Output\SFPP.GP1
 DItemRevisionGUID=
 
-[GeneratedDocument27]
+[GeneratedDocument18]
 DocumentPath=output\Gerber Output\SFPP.GP2
 DItemRevisionGUID=
 
-[GeneratedDocument28]
+[GeneratedDocument19]
 DocumentPath=output\Gerber Output\SFPP.GP3
 DItemRevisionGUID=
 
-[GeneratedDocument29]
+[GeneratedDocument20]
 DocumentPath=output\Gerber Output\SFPP.GP4
 DItemRevisionGUID=
 
-[GeneratedDocument30]
+[GeneratedDocument21]
 DocumentPath=output\Gerber Output\SFPP.GTL
 DItemRevisionGUID=
 
-[GeneratedDocument31]
+[GeneratedDocument22]
 DocumentPath=output\Gerber Output\SFPP.GTO
 DItemRevisionGUID=
 
-[GeneratedDocument32]
+[GeneratedDocument23]
 DocumentPath=output\Gerber Output\SFPP.GTP
 DItemRevisionGUID=
 
-[GeneratedDocument33]
+[GeneratedDocument24]
 DocumentPath=output\Gerber Output\SFPP.GTS
 DItemRevisionGUID=
 
-[GeneratedDocument34]
+[GeneratedDocument25]
 DocumentPath=output\NC Drill Output\SFPP.LDP
 DItemRevisionGUID=
 
-[GeneratedDocument35]
-DocumentPath=SFPP.LDP
-DItemRevisionGUID=
-
-[GeneratedDocument36]
+[GeneratedDocument26]
 DocumentPath=output\Gerber Output\SFPP.REP
 DItemRevisionGUID=
 
-[GeneratedDocument37]
-DocumentPath=SFPP.REP
-DItemRevisionGUID=
-
-[GeneratedDocument38]
+[GeneratedDocument27]
 DocumentPath=output\Gerber Output\SFPP.RUL
 DItemRevisionGUID=
 
-[GeneratedDocument39]
-DocumentPath=SFPP.RUL
-DItemRevisionGUID=
-
 [Parameter1]
-Name=SCH_TITLE_ENGINEER
-Value=D. George
+Name=COMPANY_ADDRESS_1
+Value=3rd Floor, The Park
 
 [Parameter2]
-Name=SCH_TITLE_DRAWNBY
-Value=D. George
-
-[Parameter3]
-Name=SCH_TITLE_DOCUMENTNUMBER
-Value=xxxx
-
-[Parameter4]
-Name=SCH_TITLE_DATE
-Value=Jun 2011
-
-[Parameter5]
-Name=PROJECT_TITLE
-Value=SFP+ Mezzanine Card
-
-[Parameter6]
-Name=PCB_TITLE_FILENAME
-Value=
-
-[Parameter7]
-Name=PCB_TITLE_ENGINEER
-Value=
-
-[Parameter8]
-Name=PCB_TITLE_DRAWNBY
-Value=
-
-[Parameter9]
-Name=PCB_TITLE_DOCUMENTNUMBER
-Value=
-
-[Parameter10]
-Name=PCB_TITLE_DATE
-Value=
-
-[Parameter11]
-Name=PCB_REVISION
-Value=0
-
-[Parameter12]
-Name=GERBER_FILENAME
-Value=
-
-[Parameter13]
-Name=COPYRIGHT_YEAR
-Value=2011
-
-[Parameter14]
-Name=COMPANY_NAME2
-Value=
-
-[Parameter15]
-Name=COMPANY_NAME1
-Value=SKA South Africa
-
-[Parameter16]
-Name=COMPANY_ADDRESS_3
-Value=Pinelands, 7405
-
-[Parameter17]
 Name=COMPANY_ADDRESS_2
 Value=Park Road
 
+[Parameter3]
+Name=COMPANY_ADDRESS_3
+Value=Pinelands, 7405
+
+[Parameter4]
+Name=COMPANY_NAME1
+Value=SKA South Africa
+
+[Parameter5]
+Name=COMPANY_NAME2
+Value=
+
+[Parameter6]
+Name=COPYRIGHT_YEAR
+Value=2011
+
+[Parameter7]
+Name=GERBER_FILENAME
+Value=
+
+[Parameter8]
+Name=PCB_REVISION
+Value=0
+
+[Parameter9]
+Name=PCB_TITLE_DATE
+Value=
+
+[Parameter10]
+Name=PCB_TITLE_DOCUMENTNUMBER
+Value=
+
+[Parameter11]
+Name=PCB_TITLE_DRAWNBY
+Value=
+
+[Parameter12]
+Name=PCB_TITLE_ENGINEER
+Value=
+
+[Parameter13]
+Name=PCB_TITLE_FILENAME
+Value=
+
+[Parameter14]
+Name=PROJECT_TITLE
+Value=SFP+ Mezzanine Card
+
+[Parameter15]
+Name=SCH_TITLE_DATE
+Value=Jun 2011
+
+[Parameter16]
+Name=SCH_TITLE_DOCUMENTNUMBER
+Value=xxxx
+
+[Parameter17]
+Name=SCH_TITLE_DRAWNBY
+Value=D. George
+
 [Parameter18]
-Name=COMPANY_ADDRESS_1
-Value=3rd Floor, The Park
+Name=SCH_TITLE_ENGINEER
+Value=D. George
 
 [OutputGroup1]
 Name=Netlist Outputs
