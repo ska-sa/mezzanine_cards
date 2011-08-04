@@ -120,181 +120,77 @@ DItemRevisionGUID=
 DocumentPath=output\Test Point Output\Assembly Testpoint Report for SFPP.ipc
 DItemRevisionGUID=
 
-[GeneratedDocument2]
-DocumentPath=output\Reports\Bill of Materials-SFPP.csv
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=output\Test Point Output\Fabrication Testpoint Report for SFPP.ipc
-DItemRevisionGUID=
-
-[GeneratedDocument4]
-DocumentPath=output\Pick Place Output\Pick Place for SFPP.txt
-DItemRevisionGUID=
-
-[GeneratedDocument5]
-DocumentPath=output\NC Drill Output\SFPP-NonPlated.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument6]
-DocumentPath=output\NC Drill Output\SFPP-Plated.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument7]
-DocumentPath=output\NC Drill Output\SFPP.DRL
-DItemRevisionGUID=
-
-[GeneratedDocument8]
-DocumentPath=output\NC Drill Output\SFPP.DRR
-DItemRevisionGUID=
-
-[GeneratedDocument9]
-DocumentPath=output\Gerber Output\SFPP.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument10]
-DocumentPath=output\Gerber Output\SFPP.G1
-DItemRevisionGUID=
-
-[GeneratedDocument11]
-DocumentPath=output\Gerber Output\SFPP.G2
-DItemRevisionGUID=
-
-[GeneratedDocument12]
-DocumentPath=output\Gerber Output\SFPP.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument13]
-DocumentPath=output\Gerber Output\SFPP.GBO
-DItemRevisionGUID=
-
-[GeneratedDocument14]
-DocumentPath=output\Gerber Output\SFPP.GBP
-DItemRevisionGUID=
-
-[GeneratedDocument15]
-DocumentPath=output\Gerber Output\SFPP.GBS
-DItemRevisionGUID=
-
-[GeneratedDocument16]
-DocumentPath=output\Gerber Output\SFPP.GM1
-DItemRevisionGUID=
-
-[GeneratedDocument17]
-DocumentPath=output\Gerber Output\SFPP.GP1
-DItemRevisionGUID=
-
-[GeneratedDocument18]
-DocumentPath=output\Gerber Output\SFPP.GP2
-DItemRevisionGUID=
-
-[GeneratedDocument19]
-DocumentPath=output\Gerber Output\SFPP.GP3
-DItemRevisionGUID=
-
-[GeneratedDocument20]
-DocumentPath=output\Gerber Output\SFPP.GP4
-DItemRevisionGUID=
-
-[GeneratedDocument21]
-DocumentPath=output\Gerber Output\SFPP.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument22]
-DocumentPath=output\Gerber Output\SFPP.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument23]
-DocumentPath=output\Gerber Output\SFPP.GTP
-DItemRevisionGUID=
-
-[GeneratedDocument24]
-DocumentPath=output\Gerber Output\SFPP.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument25]
-DocumentPath=output\NC Drill Output\SFPP.LDP
-DItemRevisionGUID=
-
-[GeneratedDocument26]
-DocumentPath=output\Gerber Output\SFPP.REP
-DItemRevisionGUID=
-
-[GeneratedDocument27]
-DocumentPath=output\Gerber Output\SFPP.RUL
-DItemRevisionGUID=
-
 [Parameter1]
-Name=COMPANY_ADDRESS_1
-Value=3rd Floor, The Park
+Name=SCH_TITLE_ENGINEER
+Value=D. George
 
 [Parameter2]
-Name=COMPANY_ADDRESS_2
-Value=Park Road
-
-[Parameter3]
-Name=COMPANY_ADDRESS_3
-Value=Pinelands, 7405
-
-[Parameter4]
-Name=COMPANY_NAME1
-Value=SKA South Africa
-
-[Parameter5]
-Name=COMPANY_NAME2
-Value=
-
-[Parameter6]
-Name=COPYRIGHT_YEAR
-Value=2011
-
-[Parameter7]
-Name=GERBER_FILENAME
-Value=
-
-[Parameter8]
-Name=PCB_REVISION
-Value=0
-
-[Parameter9]
-Name=PCB_TITLE_DATE
-Value=
-
-[Parameter10]
-Name=PCB_TITLE_DOCUMENTNUMBER
-Value=
-
-[Parameter11]
-Name=PCB_TITLE_DRAWNBY
-Value=
-
-[Parameter12]
-Name=PCB_TITLE_ENGINEER
-Value=
-
-[Parameter13]
-Name=PCB_TITLE_FILENAME
-Value=
-
-[Parameter14]
-Name=PROJECT_TITLE
-Value=SFP+ Mezzanine Card
-
-[Parameter15]
-Name=SCH_TITLE_DATE
-Value=Jun 2011
-
-[Parameter16]
-Name=SCH_TITLE_DOCUMENTNUMBER
-Value=xxxx
-
-[Parameter17]
 Name=SCH_TITLE_DRAWNBY
 Value=D. George
 
+[Parameter3]
+Name=SCH_TITLE_DOCUMENTNUMBER
+Value=xxxx
+
+[Parameter4]
+Name=SCH_TITLE_DATE
+Value=Jun 2011
+
+[Parameter5]
+Name=PROJECT_TITLE
+Value=SFP+ Mezzanine Card
+
+[Parameter6]
+Name=PCB_TITLE_FILENAME
+Value=
+
+[Parameter7]
+Name=PCB_TITLE_ENGINEER
+Value=
+
+[Parameter8]
+Name=PCB_TITLE_DRAWNBY
+Value=
+
+[Parameter9]
+Name=PCB_TITLE_DOCUMENTNUMBER
+Value=
+
+[Parameter10]
+Name=PCB_TITLE_DATE
+Value=
+
+[Parameter11]
+Name=PCB_REVISION
+Value=0
+
+[Parameter12]
+Name=GERBER_FILENAME
+Value=
+
+[Parameter13]
+Name=COPYRIGHT_YEAR
+Value=2011
+
+[Parameter14]
+Name=COMPANY_NAME2
+Value=
+
+[Parameter15]
+Name=COMPANY_NAME1
+Value=SKA South Africa
+
+[Parameter16]
+Name=COMPANY_ADDRESS_3
+Value=Pinelands, 7405
+
+[Parameter17]
+Name=COMPANY_ADDRESS_2
+Value=Park Road
+
 [Parameter18]
-Name=SCH_TITLE_ENGINEER
-Value=D. George
+Name=COMPANY_ADDRESS_1
+Value=3rd Floor, The Park
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -987,7 +883,7 @@ Type6=2
 Type7=1
 Type8=1
 Type9=1
-Type10=1
+Type10=0
 Type11=2
 Type12=2
 Type13=2
@@ -1079,16 +975,16 @@ Type98=0
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
-L2=NNWNNNNNWWNWNWNWN
-L3=NWEENEEEENEWNEEWN
+L2=NNNNNNNNNNNWNWNWN
+L3=NNEENNEEENEWNEEWN
 L4=NNENNNWEENNWNENWN
 L5=NNNNNNNNNNNNNNNNN
-L6=NNENNNNEENNWNENWN
+L6=NNNNNNNEENNWNENWN
 L7=NNEWNNWEENNWNENWN
-L8=NNEENEENEEENNEENN
-L9=NWEENEEEENEWNEEWW
-L10=NWNNNNNENNEWNNEWN
-L11=NNENNNNEEENWNENWN
+L8=NNEENEENNENNNEENN
+L9=NNEENEENNNNWNEEWW
+L10=NNNNNNNENNEWNNEWN
+L11=NNENNNNNNENWNENWN
 L12=WWWWNWWNWWWNWWWNN
 L13=NNNNNNNNNNNWNNNWW
 L14=NWEENEEEENEWNEEWW
