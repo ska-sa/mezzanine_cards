@@ -4,12 +4,16 @@ HierarchyMode=3
 ChannelRoomNamingStyle=0
 OutputPath=output
 LogFolderPath=logs
+ReleasesFolder=
+ReleaseVaultGUID=
+ReleaseVaultName=
 ChannelDesignatorFormatString=$Component_$RoomName
 ChannelRoomLevelSeperator=_
 OpenOutputs=1
 ArchiveProject=0
 TimestampOutput=0
 SeparateFolders=0
+TemplateLocationPath=
 PinSwapBy_Netlabel=1
 PinSwapBy_Pin=1
 AllowPortNetNames=0
@@ -40,6 +44,7 @@ ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
+GenerateClassCluster=0
 
 [Document2]
 DocumentPath=sch\mezzanine.SchDoc
@@ -55,6 +60,7 @@ ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
+GenerateClassCluster=0
 
 [Document3]
 DocumentPath=sch\phy0.SchDoc
@@ -70,6 +76,7 @@ ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
+GenerateClassCluster=0
 
 [Document4]
 DocumentPath=sch\phy1.SchDoc
@@ -85,6 +92,7 @@ ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
+GenerateClassCluster=0
 
 [Document5]
 DocumentPath=sch\sfpp_conn.SchDoc
@@ -100,6 +108,7 @@ ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
+GenerateClassCluster=0
 
 [Document6]
 DocumentPath=output\gen_files.OutJob
@@ -115,87 +124,123 @@ ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
+GenerateClassCluster=0
 
-[GeneratedDocument1]
-DocumentPath=output\Test Point Output\Assembly Testpoint Report for SFPP.ipc
+[Document7]
+DocumentPath=..\..\..\..\svnDBE\libraries\pcb\Altium\altium_db.DbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
 DItemRevisionGUID=
+GenerateClassCluster=0
+
+[Document8]
+DocumentPath=..\..\..\..\svnDBE\libraries\pcb\Altium\altium_db.xls
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
 
 [Parameter1]
-Name=SCH_TITLE_ENGINEER
-Value=D. George
+Name=COMPANY_ADDRESS_1
+Value=3rd Floor, The Park
 
 [Parameter2]
-Name=SCH_TITLE_DRAWNBY
-Value=D. George
-
-[Parameter3]
-Name=SCH_TITLE_DOCUMENTNUMBER
-Value=xxxx
-
-[Parameter4]
-Name=SCH_TITLE_DATE
-Value=Jun 2011
-
-[Parameter5]
-Name=PROJECT_TITLE
-Value=SFP+ Mezzanine Card
-
-[Parameter6]
-Name=PCB_TITLE_FILENAME
-Value=
-
-[Parameter7]
-Name=PCB_TITLE_ENGINEER
-Value=
-
-[Parameter8]
-Name=PCB_TITLE_DRAWNBY
-Value=
-
-[Parameter9]
-Name=PCB_TITLE_DOCUMENTNUMBER
-Value=
-
-[Parameter10]
-Name=PCB_TITLE_DATE
-Value=
-
-[Parameter11]
-Name=PCB_REVISION
-Value=0
-
-[Parameter12]
-Name=GERBER_FILENAME
-Value=
-
-[Parameter13]
-Name=COPYRIGHT_YEAR
-Value=2011
-
-[Parameter14]
-Name=COMPANY_NAME2
-Value=
-
-[Parameter15]
-Name=COMPANY_NAME1
-Value=SKA South Africa
-
-[Parameter16]
-Name=COMPANY_ADDRESS_3
-Value=Pinelands, 7405
-
-[Parameter17]
 Name=COMPANY_ADDRESS_2
 Value=Park Road
 
+[Parameter3]
+Name=COMPANY_ADDRESS_3
+Value=Pinelands, 7405
+
+[Parameter4]
+Name=COMPANY_NAME1
+Value=SKA South Africa
+
+[Parameter5]
+Name=COMPANY_NAME2
+Value=
+
+[Parameter6]
+Name=COPYRIGHT_YEAR
+Value=2011
+
+[Parameter7]
+Name=GERBER_FILENAME
+Value=
+
+[Parameter8]
+Name=PCB_REVISION
+Value=0
+
+[Parameter9]
+Name=PCB_TITLE_DATE
+Value=
+
+[Parameter10]
+Name=PCB_TITLE_DOCUMENTNUMBER
+Value=
+
+[Parameter11]
+Name=PCB_TITLE_DRAWNBY
+Value=
+
+[Parameter12]
+Name=PCB_TITLE_ENGINEER
+Value=
+
+[Parameter13]
+Name=PCB_TITLE_FILENAME
+Value=
+
+[Parameter14]
+Name=PROJECT_TITLE
+Value=SFP+ Mezzanine Card
+
+[Parameter15]
+Name=SCH_TITLE_DATE
+Value=Jun 2011
+
+[Parameter16]
+Name=SCH_TITLE_DOCUMENTNUMBER
+Value=xxxx
+
+[Parameter17]
+Name=SCH_TITLE_DRAWNBY
+Value=D. George
+
 [Parameter18]
-Name=COMPANY_ADDRESS_1
-Value=3rd Floor, The Park
+Name=SCH_TITLE_ENGINEER
+Value=D. George
+
+[PCBConfiguration1]
+ReleaseItemId=
+CurrentRevision=
+Name=Default Configuration
+Variant=[No Variations]
+GenerateBOM=0
 
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
-TargetPrinter=HP LaserJet P2015 Series PS
+TargetPrinter=KAT colour
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=CadnetixNetlist
 OutputName1=Cadnetix Netlist
@@ -326,7 +371,7 @@ OutputDefault25=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=HP LaserJet P2015 Series PS
+TargetPrinter=KAT colour
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=AdvSimNetlist
 OutputName1=Mixed Sim
@@ -347,11 +392,11 @@ OutputDefault3=0
 [OutputGroup3]
 Name=Documentation Outputs
 Description=
-TargetPrinter=HP LaserJet P2015 Series PS
+TargetPrinter=KAT lazer (front)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=Composite
 OutputName1=Composite Drawing
-OutputDocumentPath1=C:\svnROACH2\elec\FPGA Mezzanine Cards\CX4.PcbDoc
+OutputDocumentPath1=C:\svnROACH2\elec\mezzanine_cards\SFPP\pcb\SFPP.PcbDoc
 OutputVariantName1=
 OutputDefault1=0
 PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=2970|PaperWidth=2100|Scale=100|PaperSource=15|PrintQuality=600|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=0
@@ -392,7 +437,7 @@ PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintS
 OutputType4=PCB 3D Print
 OutputName4=PCB 3D Prints
 OutputDocumentPath4=
-OutputVariantName4=
+OutputVariantName4=[No Variations]
 OutputDefault4=0
 PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
 OutputType5=PCB Print
@@ -425,33 +470,81 @@ OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
 PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
+OutputType10=Assembler Source Print
+OutputName10=Assembler Source Prints
+OutputDocumentPath10=
+OutputVariantName10=
+OutputDefault10=0
+PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
+OutputType11=C Source Print
+OutputName11=C Source Prints
+OutputDocumentPath11=
+OutputVariantName11=
+OutputDefault11=0
+PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
+OutputType12=C/C++ Header Print
+OutputName12=C/C++ Header Prints
+OutputDocumentPath12=
+OutputVariantName12=
+OutputDefault12=0
+PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
+OutputType13=C++ Source Print
+OutputName13=C++ Source Prints
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
+OutputType14=PCB 3D Video
+OutputName14=PCB 3D Video
+OutputDocumentPath14=
+OutputVariantName14=[No Variations]
+OutputDefault14=0
+PageOptions14=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
+OutputType15=Report Print
+OutputName15=Report Prints
+OutputDocumentPath15=
+OutputVariantName15=
+OutputDefault15=0
+PageOptions15=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
+OutputType16=Software Platform Print
+OutputName16=Software Platform Prints
+OutputDocumentPath16=
+OutputVariantName16=
+OutputDefault16=0
+PageOptions16=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
+OutputType17=VHDL Print
+OutputName17=VHDL Prints
+OutputDocumentPath17=
+OutputVariantName17=
+OutputDefault17=0
+PageOptions17=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
 
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=HP LaserJet P2015 Series PS
+TargetPrinter=KAT colour
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=Assembly
 OutputName1=Assembly Drawings
 OutputDocumentPath1=
-OutputVariantName1=
+OutputVariantName1=[No Variations]
 OutputDefault1=0
 PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
 OutputType2=Pick Place
 OutputName2=Generates pick and place files
 OutputDocumentPath2=
-OutputVariantName2=
+OutputVariantName2=[No Variations]
 OutputDefault2=0
 OutputType3=Test Points For Assembly
 OutputName3=Test Point Report
 OutputDocumentPath3=
-OutputVariantName3=
+OutputVariantName3=[No Variations]
 OutputDefault3=0
 
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=HP LaserJet P2015 Series PS
+TargetPrinter=KAT colour
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=Drill
 OutputName1=Drill Drawing/Guides
@@ -490,7 +583,7 @@ PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintS
 OutputType3=Final
 OutputName3=Final Artwork Prints
 OutputDocumentPath3=
-OutputVariantName3=
+OutputVariantName3=[No Variations]
 OutputDefault3=0
 PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
 OutputType4=CompositeDrill
@@ -509,7 +602,7 @@ Configuration5_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|Ge
 OutputType6=ODB
 OutputName6=ODB++ Files
 OutputDocumentPath6=
-OutputVariantName6=
+OutputVariantName6=[No Variations]
 OutputDefault6=0
 OutputType7=Plane
 OutputName7=Power-Plane Prints
@@ -525,7 +618,7 @@ OutputDefault8=0
 OutputType9=Gerber
 OutputName9=Gerber Files
 OutputDocumentPath9=
-OutputVariantName9=
+OutputVariantName9=[No Variations]
 OutputDefault9=0
 Configuration9_Name1=OutputConfigurationParameter1
 Configuration9_Item1=AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=500000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GerberUnit=Metric|IncludeUnconnectedMidLayerPads=False|LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=39|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NumberOfDecimals=4|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16973830~1,16973834~1,16777217~1,16842753~1,16777218~1,16777219~1,16842754~1,16842751~1,16973835~1,16973831~1,16908289~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=39|Record=GerberView|SoftwareArcs=False|Sorted=False
@@ -533,12 +626,12 @@ Configuration9_Item1=AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TL
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=HP LaserJet P2015 Series PS
+TargetPrinter=KAT colour
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=BOM_PartType
 OutputName1=Bill of Materials
 OutputDocumentPath1=
-OutputVariantName1=
+OutputVariantName1=[No Variations]
 OutputDefault1=0
 PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
 Configuration1_Name1=Filter
@@ -556,45 +649,33 @@ Configuration1_Item6=Comment=100|Description=100|Designator=100|Footprint=100|Li
 OutputType2=ComponentCrossReference
 OutputName2=Component Cross Reference Report
 OutputDocumentPath2=
-OutputVariantName2=
+OutputVariantName2=[No Variations]
 OutputDefault2=0
-OutputType3=Design Rules Check
-OutputName3=Design Rules Check
+OutputType3=ReportHierarchy
+OutputName3=Report Project Hierarchy
 OutputDocumentPath3=
-OutputVariantName3=
+OutputVariantName3=[No Variations]
 OutputDefault3=0
-PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
-OutputType4=Electrical Rules Check
-OutputName4=Electrical Rules Check
+OutputType4=Script
+OutputName4=Script Output
 OutputDocumentPath4=
-OutputVariantName4=
+OutputVariantName4=[No Variations]
 OutputDefault4=0
-PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
-OutputType5=ReportHierarchy
-OutputName5=Report Project Hierarchy
+OutputType5=SimpleBOM
+OutputName5=Simple BOM
 OutputDocumentPath5=
-OutputVariantName5=
+OutputVariantName5=[No Variations]
 OutputDefault5=0
-OutputType6=Script
-OutputName6=Script Output
+OutputType6=SinglePinNetReporter
+OutputName6=Report Single Pin Nets
 OutputDocumentPath6=
-OutputVariantName6=
+OutputVariantName6=[No Variations]
 OutputDefault6=0
-OutputType7=SimpleBOM
-OutputName7=Simple BOM
-OutputDocumentPath7=
-OutputVariantName7=
-OutputDefault7=0
-OutputType8=SinglePinNetReporter
-OutputName8=Report Single Pin Nets
-OutputDocumentPath8=
-OutputVariantName8=
-OutputDefault8=0
 
 [OutputGroup7]
 Name=Other Outputs
 Description=
-TargetPrinter=HP LaserJet P2015 Series PS
+TargetPrinter=KAT colour
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=Text Print
 OutputName1=Text Print
@@ -764,6 +845,52 @@ OutputDocumentPath28=
 OutputVariantName28=
 OutputDefault28=0
 PageOptions28=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
+OutputType29=Text Print
+OutputName29=Text Print
+OutputDocumentPath29=
+OutputVariantName29=
+OutputDefault29=0
+PageOptions29=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
+
+[OutputGroup8]
+Name=Validation Outputs
+Description=
+TargetPrinter=KAT colour
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
+OutputType1=Design Rules Check
+OutputName1=Design Rules Check
+OutputDocumentPath1=
+OutputVariantName1=
+OutputDefault1=0
+PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
+OutputType2=Electrical Rules Check
+OutputName2=Electrical Rules Check
+OutputDocumentPath2=
+OutputVariantName2=
+OutputDefault2=0
+PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
+OutputType3=Differences Report
+OutputName3=Differences Report
+OutputDocumentPath3=
+OutputVariantName3=
+OutputDefault3=0
+PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
+OutputType4=Footprint Comparison Report
+OutputName4=Footprint Comparison Report
+OutputDocumentPath4=
+OutputVariantName4=
+OutputDefault4=0
+
+[OutputGroup9]
+Name=Export Outputs
+Description=
+TargetPrinter=KAT colour
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
+OutputType1=ExportSTEP
+OutputName1=Export STEP
+OutputDocumentPath1=
+OutputVariantName1=
+OutputDefault1=0
 
 [Modification Levels]
 Type1=1
@@ -834,6 +961,12 @@ Type65=1
 Type66=1
 Type67=1
 Type68=1
+Type69=1
+Type70=1
+Type71=1
+Type72=1
+Type73=1
+Type74=1
 
 [Difference Levels]
 Type1=1
@@ -872,6 +1005,10 @@ Type33=1
 Type34=1
 Type35=1
 Type36=1
+Type37=1
+Type38=1
+Type39=1
+Type40=1
 
 [Electrical Rules Check]
 Type1=0
@@ -972,6 +1109,8 @@ Type95=2
 Type96=2
 Type97=2
 Type98=0
+Type99=1
+Type100=2
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
@@ -1123,6 +1262,7 @@ ComponentIsDeviceSheet17=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
+PreserveParameterLocations=1
 DoGraphics=1
 DoParameters=1
 DoModels=1
@@ -1274,6 +1414,7 @@ ComparisonOptions1=Kind=Net Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=
 ComparisonOptions2=Kind=Component Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
 ComparisonOptions3=Kind=Rule|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
 ComparisonOptions4=Kind=Differential Pair|MinPercent=50|MinMatch=1|ShowMatch=0|Confirm=0|UseName=0|InclAllRules=0
+ComparisonOptions5=Kind=Structure Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
 
 [SmartPDF]
 PageOptions=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
