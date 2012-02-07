@@ -111,22 +111,6 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 
 [Document6]
-DocumentPath=output\gen_files.OutJob
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-
-[Document7]
 DocumentPath=..\..\..\..\svnDBE\libraries\pcb\Altium\altium_db.DbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -142,7 +126,7 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 
-[Document8]
+[Document7]
 DocumentPath=..\..\..\..\svnDBE\libraries\pcb\Altium\altium_db.xls
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -158,157 +142,77 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 
-[GeneratedDocument1]
-DocumentPath=output\SFPP.DRL
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=output\SFPP.DRR
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=output\SFPP.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument4]
-DocumentPath=output\SFPP.G1
-DItemRevisionGUID=
-
-[GeneratedDocument5]
-DocumentPath=output\SFPP.G2
-DItemRevisionGUID=
-
-[GeneratedDocument6]
-DocumentPath=output\SFPP.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument7]
-DocumentPath=output\SFPP.GBO
-DItemRevisionGUID=
-
-[GeneratedDocument8]
-DocumentPath=output\SFPP.GBS
-DItemRevisionGUID=
-
-[GeneratedDocument9]
-DocumentPath=output\SFPP.GM1
-DItemRevisionGUID=
-
-[GeneratedDocument10]
-DocumentPath=output\SFPP.GP1
-DItemRevisionGUID=
-
-[GeneratedDocument11]
-DocumentPath=output\SFPP.GP2
-DItemRevisionGUID=
-
-[GeneratedDocument12]
-DocumentPath=output\SFPP.GP3
-DItemRevisionGUID=
-
-[GeneratedDocument13]
-DocumentPath=output\SFPP.GP4
-DItemRevisionGUID=
-
-[GeneratedDocument14]
-DocumentPath=output\SFPP.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument15]
-DocumentPath=output\SFPP.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument16]
-DocumentPath=output\SFPP.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument17]
-DocumentPath=output\SFPP.LDP
-DItemRevisionGUID=
-
-[GeneratedDocument18]
-DocumentPath=output\SFPP.REP
-DItemRevisionGUID=
-
-[GeneratedDocument19]
-DocumentPath=output\SFPP.RUL
-DItemRevisionGUID=
-
-[GeneratedDocument20]
-DocumentPath=output\SFPP.TXT
-DItemRevisionGUID=
-
 [Parameter1]
-Name=SCH_TITLE_ENGINEER
-Value=D. George
+Name=COMPANY_ADDRESS_1
+Value=3rd Floor, The Park
 
 [Parameter2]
-Name=SCH_TITLE_DRAWNBY
-Value=D. George
-
-[Parameter3]
-Name=SCH_TITLE_DOCUMENTNUMBER
-Value=xxxx
-
-[Parameter4]
-Name=SCH_TITLE_DATE
-Value=Nov 2011
-
-[Parameter5]
-Name=PROJECT_TITLE
-Value=SFP+ Mezzanine Card
-
-[Parameter6]
-Name=PCB_TITLE_FILENAME
-Value=
-
-[Parameter7]
-Name=PCB_TITLE_ENGINEER
-Value=
-
-[Parameter8]
-Name=PCB_TITLE_DRAWNBY
-Value=
-
-[Parameter9]
-Name=PCB_TITLE_DOCUMENTNUMBER
-Value=
-
-[Parameter10]
-Name=PCB_TITLE_DATE
-Value=
-
-[Parameter11]
-Name=PCB_REVISION
-Value=0
-
-[Parameter12]
-Name=GERBER_FILENAME
-Value=
-
-[Parameter13]
-Name=COPYRIGHT_YEAR
-Value=2011
-
-[Parameter14]
-Name=COMPANY_NAME2
-Value=
-
-[Parameter15]
-Name=COMPANY_NAME1
-Value=SKA South Africa
-
-[Parameter16]
-Name=COMPANY_ADDRESS_3
-Value=Pinelands, 7405
-
-[Parameter17]
 Name=COMPANY_ADDRESS_2
 Value=Park Road
 
+[Parameter3]
+Name=COMPANY_ADDRESS_3
+Value=Pinelands, 7405
+
+[Parameter4]
+Name=COMPANY_NAME1
+Value=SKA South Africa
+
+[Parameter5]
+Name=COMPANY_NAME2
+Value=
+
+[Parameter6]
+Name=COPYRIGHT_YEAR
+Value=2011
+
+[Parameter7]
+Name=GERBER_FILENAME
+Value=
+
+[Parameter8]
+Name=PCB_REVISION
+Value=0
+
+[Parameter9]
+Name=PCB_TITLE_DATE
+Value=
+
+[Parameter10]
+Name=PCB_TITLE_DOCUMENTNUMBER
+Value=
+
+[Parameter11]
+Name=PCB_TITLE_DRAWNBY
+Value=
+
+[Parameter12]
+Name=PCB_TITLE_ENGINEER
+Value=
+
+[Parameter13]
+Name=PCB_TITLE_FILENAME
+Value=
+
+[Parameter14]
+Name=PROJECT_TITLE
+Value=SFP+ Mezzanine Card
+
+[Parameter15]
+Name=SCH_TITLE_DATE
+Value=Nov 2011
+
+[Parameter16]
+Name=SCH_TITLE_DOCUMENTNUMBER
+Value=xxxx
+
+[Parameter17]
+Name=SCH_TITLE_DRAWNBY
+Value=D. George
+
 [Parameter18]
-Name=COMPANY_ADDRESS_1
-Value=3rd Floor, The Park
+Name=SCH_TITLE_ENGINEER
+Value=D. George
 
 [PCBConfiguration1]
 ReleaseItemId=
@@ -320,7 +224,7 @@ GenerateBOM=0
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
-TargetPrinter=KAT colour
+TargetPrinter=KAT_colour
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=CadnetixNetlist
 OutputName1=Cadnetix Netlist
@@ -451,7 +355,7 @@ OutputDefault25=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=KAT colour
+TargetPrinter=KAT_colour
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=AdvSimNetlist
 OutputName1=Mixed Sim
@@ -602,7 +506,7 @@ PageOptions17=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=KAT colour
+TargetPrinter=KAT_colour
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=Assembly
 OutputName1=Assembly Drawings
@@ -624,7 +528,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=KAT colour
+TargetPrinter=KAT_colour
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=Drill
 OutputName1=Drill Drawing/Guides
@@ -706,48 +610,48 @@ Configuration9_Item1=AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TL
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=KAT colour
+TargetPrinter=KAT_colour
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
-OutputType1=BOM_PartType
-OutputName1=Bill of Materials
+OutputType1=Script
+OutputName1=Script Output
 OutputDocumentPath1=
 OutputVariantName1=[No Variations]
 OutputDefault1=0
-PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
-Configuration1_Name1=Filter
-Configuration1_Item1=545046300E5446696C74657257726170706572000D46696C7465722E416374697665090F46696C7465722E43726974657269610A04000000000000000000
-Configuration1_Name2=General
-Configuration1_Item2=OpenExported=False|AddToProject=False|ForceFit=False|Database=False|IncludePCBData=False|ShowExportOptions=True|TemplateFilename=|BatchMode=5|FormWidth=1463|FormHeight=864|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>
-Configuration1_Name3=GroupOrder
-Configuration1_Item3=Comment=True|Footprint=True
-Configuration1_Name4=OutputConfigurationParameter1
-Configuration1_Item4=Record=BOMPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ShowBlanket=True|ExpandDesignator=True|ExpandNetLabel=False|ExpandPort=False|ExpandSheetNum=False|ExpandDocNum=False
-Configuration1_Name5=SortOrder
-Configuration1_Item5=Designator=Up|Comment=Up|Footprint=Up
-Configuration1_Name6=VisibleOrder
-Configuration1_Item6=Comment=100|Description=100|Designator=100|Footprint=100|LibRef=100|Manufacturer=100|PartNum=123|POD number=128|Quantity=100
-OutputType2=ComponentCrossReference
-OutputName2=Component Cross Reference Report
+OutputType2=SimpleBOM
+OutputName2=Simple BOM
 OutputDocumentPath2=
 OutputVariantName2=[No Variations]
 OutputDefault2=0
-OutputType3=ReportHierarchy
-OutputName3=Report Project Hierarchy
+OutputType3=SinglePinNetReporter
+OutputName3=Report Single Pin Nets
 OutputDocumentPath3=
 OutputVariantName3=[No Variations]
 OutputDefault3=0
-OutputType4=Script
-OutputName4=Script Output
+OutputType4=BOM_PartType
+OutputName4=Bill of Materials
 OutputDocumentPath4=
 OutputVariantName4=[No Variations]
 OutputDefault4=0
-OutputType5=SimpleBOM
-OutputName5=Simple BOM
+PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
+Configuration4_Name1=Filter
+Configuration4_Item1=545046300E5446696C74657257726170706572000D46696C7465722E416374697665090F46696C7465722E43726974657269610A04000000000000000000
+Configuration4_Name2=General
+Configuration4_Item2=OpenExported=False|AddToProject=False|ForceFit=False|NotFitted=False|Database=False|IncludePCBData=True|ShowExportOptions=True|TemplateFilename=|BatchMode=5|FormWidth=1463|FormHeight=641|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>
+Configuration4_Name3=GroupOrder
+Configuration4_Item3=Comment=True|Footprint=True
+Configuration4_Name4=OutputConfigurationParameter1
+Configuration4_Item4=Record=BOMPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ShowBlanket=True|ExpandDesignator=True|ExpandNetLabel=False|ExpandPort=False|ExpandSheetNum=False|ExpandDocNum=False
+Configuration4_Name5=SortOrder
+Configuration4_Item5=Designator=Up|Comment=Up|Footprint=Up
+Configuration4_Name6=VisibleOrder
+Configuration4_Item6=Comment=100|Description=100|Designator=100|Footprint=100|LibRef=100|Quantity=100
+OutputType5=ComponentCrossReference
+OutputName5=Component Cross Reference Report
 OutputDocumentPath5=
 OutputVariantName5=[No Variations]
 OutputDefault5=0
-OutputType6=SinglePinNetReporter
-OutputName6=Report Single Pin Nets
+OutputType6=ReportHierarchy
+OutputName6=Report Project Hierarchy
 OutputDocumentPath6=
 OutputVariantName6=[No Variations]
 OutputDefault6=0
@@ -755,7 +659,7 @@ OutputDefault6=0
 [OutputGroup7]
 Name=Other Outputs
 Description=
-TargetPrinter=KAT colour
+TargetPrinter=KAT_colour
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=Text Print
 OutputName1=Text Print
@@ -935,7 +839,7 @@ PageOptions29=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup8]
 Name=Validation Outputs
 Description=
-TargetPrinter=KAT colour
+TargetPrinter=KAT_colour
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=Design Rules Check
 OutputName1=Design Rules Check
@@ -964,7 +868,7 @@ OutputDefault4=0
 [OutputGroup9]
 Name=Export Outputs
 Description=
-TargetPrinter=KAT colour
+TargetPrinter=KAT_colour
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=ExportSTEP
 OutputName1=Export STEP
