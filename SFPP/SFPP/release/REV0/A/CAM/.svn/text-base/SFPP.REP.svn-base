@@ -1,0 +1,419 @@
+*************************************************************
+FileName = SFPP.GBR
+AutoAperture = True
+*************************************************************
+Generating : L1_S1
+      File : SFPP.GTL
+
+    Adding Layer      : L1_S1
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
+    D48
+    D49
+    D50
+    D51
+    D52
+    D53
+*************************************************************
+
+*************************************************************
+Generating : L2_PGND
+      File : SFPP.GP1
+
+    Adding Layer      : L2_PGND
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D54
+    D55
+    D56
+    D57
+    D58
+    D59
+    D60
+    D61
+    D62
+*************************************************************
+
+*************************************************************
+Generating : L3_S2
+      File : SFPP.G1
+
+    Adding Layer      : L3_S2
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D35
+    D39
+    D40
+    D43
+    D51
+    D63
+    D64
+*************************************************************
+
+*************************************************************
+Generating : L4_P1V2
+      File : SFPP.GP2
+
+    Adding Layer      : L4_P1V2
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D40
+    D54
+    D55
+    D56
+    D57
+    D58
+    D59
+    D60
+    D61
+    D62
+    D65
+*************************************************************
+
+*************************************************************
+Generating : L5_P1V8
+      File : SFPP.GP3
+
+    Adding Layer      : L5_P1V8
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D54
+    D55
+    D56
+    D57
+    D58
+    D59
+    D60
+    D61
+    D62
+    D65
+*************************************************************
+
+*************************************************************
+Generating : L6_S3
+      File : SFPP.G2
+
+    Adding Layer      : L6_S3
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D35
+    D39
+    D40
+    D41
+    D51
+    D63
+    D64
+    D66
+*************************************************************
+
+*************************************************************
+Generating : L7_PGND
+      File : SFPP.GP4
+
+    Adding Layer      : L7_PGND
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D54
+    D55
+    D56
+    D57
+    D58
+    D59
+    D60
+    D61
+    D62
+*************************************************************
+
+*************************************************************
+Generating : L8_S4
+      File : SFPP.GBL
+
+    Adding Layer      : L8_S4
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D11
+    D13
+    D14
+    D16
+    D19
+    D29
+    D30
+    D33
+    D35
+    D39
+    D40
+    D41
+    D42
+    D43
+    D45
+    D46
+    D47
+    D48
+    D49
+    D50
+    D51
+    D52
+    D53
+    D67
+    D68
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : SFPP.GTO
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+    D39
+    D40
+    D44
+    D64
+    D69
+    D70
+    D71
+*************************************************************
+
+*************************************************************
+Generating : Top Paste
+      File : SFPP.GTP
+
+    Adding Layer      : Top Paste
+
+    Adding Layer      : L1_S1
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D11
+    D12
+    D13
+    D14
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D24
+    D25
+    D27
+    D28
+    D29
+    D30
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D72
+    D73
+    D74
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : SFPP.GTS
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : L1_S1
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D35
+    D36
+    D48
+    D49
+    D51
+    D75
+    D76
+    D77
+    D78
+    D79
+    D80
+    D81
+    D82
+    D83
+    D84
+    D85
+    D86
+    D87
+    D88
+    D89
+    D90
+    D91
+    D92
+    D93
+    D94
+    D95
+    D96
+    D97
+    D98
+    D99
+    D100
+    D101
+    D102
+    D103
+    D104
+    D105
+    D106
+    D107
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : SFPP.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : L8_S4
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D35
+    D48
+    D49
+    D51
+    D52
+    D53
+    D75
+    D77
+    D78
+    D80
+    D83
+    D93
+    D94
+    D97
+    D99
+    D103
+    D104
+    D105
+    D106
+    D107
+    D108
+    D109
+*************************************************************
+
+*************************************************************
+Generating : Bottom Paste
+      File : SFPP.GBP
+
+    Adding Layer      : Bottom Paste
+
+    Adding Layer      : L8_S4
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D11
+    D13
+    D14
+    D16
+    D19
+    D29
+    D30
+    D33
+    D35
+    D67
+    D68
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : SFPP.GBO
+
+    Adding Layer      : Bottom Overlay
+
+
+Used DCodes :
+    D69
+    D71
+    D110
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 1
+      File : SFPP.GM1
+
+    Adding Layer      : Mechanical 1
+
+
+Used DCodes :
+    D111
+*************************************************************
+

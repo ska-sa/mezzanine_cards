@@ -1,0 +1,20 @@
+Components:
+
+CONN-PCB-27; 4; Molex; 74441-0001; Digikey; 2.15 USD
+CONN-PCB-26; 1; Molex; 0747540420; Digikey; 9.84 USD
+RESN-CLK-6; 2; Kyocera; KC7050P156.250L30E00; Digikey; 18.26 USD
+RES-TF-46; 1; STACKPOLE; RMCF0402FT2K87; Digikey; 0.08 USD
+RES-TF-45; 1; STACKPOLE; RMCF0402FT3K57; Digikey; 0.08 USD
+OPTO-LPIPE-1; 2; Dialight; 515-1094F; Digikey; 0.46 USD
+IC-REG-5; 3; TI; TPS74401RGWT; Digikey; 7.04 USD
+IC-PHY-2; 2; Vitesse; VSC8488XJU; Nu Horizons; 60 USD
+CONN-PCB-19; 1; Samtec; QFSS-064-04.25-L-D-A-DP; Otto Marketing; 26 USD
+CAP-TAN-6; 3; AVX; TPSB107M006R0250; Digikey; 1 USD
+
+Total: 230 USD
+
+PCB:
+20 USD (estimate)
+
+ASM:
+50 USD (estimate)

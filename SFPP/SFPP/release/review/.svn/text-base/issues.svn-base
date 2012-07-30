@@ -1,0 +1,2 @@
+* Clock scheme has too much jitter (4ps p2p)
+Use micrel part ala R2/R1, which has < 1 ps p2p 
